@@ -1,0 +1,79 @@
+.myButton{
+    cursor: default;
+}
+
+.myButton:hover{
+    background-color: #EEE;
+}
+
+.myButton:active{
+    background-color: #DDD;
+}
+
+body{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.outerContainer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+}
+
+.sliderContainer{
+    margin: auto;
+    margin-top: 40px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0;
+
+    animation: tilt 0.5s;
+}
+
+.innerContainer{
+    display: table-row;
+}
+
+.hiderButton{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    display: table-cell;
+    border: 1px solid grey;
+
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.content{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    display: table-cell;
+    border: 1px solid grey;
+
+    border-left: 0px;
+
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@keyframes tilt{
+    100%{
+        transform: skewX(-30deg);
+    }
+}
