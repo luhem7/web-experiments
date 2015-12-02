@@ -34,7 +34,7 @@ body{
     border-collapse: separate;
     border-spacing: 0;
 
-    animation: tilt 0.5s;
+    transition: all 300ms;
 }
 
 .innerContainer{
@@ -72,8 +72,6 @@ body{
     user-select: none;
 }
 
-@keyframes tilt{
-    100%{
-        transform: skewX(-30deg);
-    }
+.hideNSlide{
+    transform: translateX(1000px) skewX(-30deg);
 }
