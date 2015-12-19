@@ -1,0 +1,23 @@
+.vertAccordionSection{
+    width : 500px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    border : 2px solid gray;
+}
+
+.vertAccrodion{
+    margin: 0px 5px 0px 5px;
+}
+
+.accordionButton{
+    cursor: pointer;
+    padding-left: 10px;
+    border: 1px solid black;
+
+    background: rgb(242,246,248); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 66%, rgba(216,225,231,1) 66%, rgba(181,198,208,1) 68%, rgba(181,198,208,1) 68%, rgba(224,239,249,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 66%,rgba(216,225,231,1) 66%,rgba(181,198,208,1) 68%,rgba(181,198,208,1) 68%,rgba(224,239,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 66%,rgba(216,225,231,1) 66%,rgba(181,198,208,1) 68%,rgba(181,198,208,1) 68%,rgba(224,239,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+    copy
+}

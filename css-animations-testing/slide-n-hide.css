@@ -73,5 +73,5 @@ body{
 }
 
 .hideNSlide{
-    transform: translateX(1000px) skewX(-30deg);
+    transform: translateX(100%) skewX(-30deg);
 }

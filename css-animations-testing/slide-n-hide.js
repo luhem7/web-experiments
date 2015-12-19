@@ -9,7 +9,7 @@ $(document).ready(function() {
         string = "height "+elementHeight+" width "+elementWidth+
         " offset "+elementOffset.top+","+elementOffset.left + "\n";
 
-        alert(string);
+        //alert(string);
         $("#sliderContainer1").addClass("hideNSlide");
     });
 });
